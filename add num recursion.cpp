@@ -1,11 +1,11 @@
 #include <stdio.h>
 int print (int num)
 {
-   if (num==0)
+   if (num==1)
    {
    	return 1;
 	   }
-	   print (num-1);
+	  else
 	return  num+ print (num-1);
 }
 int main ()
